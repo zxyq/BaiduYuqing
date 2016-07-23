@@ -28,7 +28,6 @@ html,body {
 	height:100%;
 	overflow:hidden;
 	position:relative;
-	/*transition  ease-out 动画以低速结束*/
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out
 }
@@ -37,7 +36,6 @@ html,body {
 	width:100%
 }
 .fp-tableCell {
-	/*此元素会作为一个表格单元格显示（类似 <td> 和 <th>）*/
 	display:table-cell;
 	vertical-align:middle;
 	width:100%;
@@ -69,7 +67,6 @@ html,body {
 	border-color:transparent transparent transparent #fff
 }
 .fp-scrollable {
-	/*内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。*/
 	overflow:scroll
 }
 .fp-notransition {
@@ -152,7 +149,6 @@ html,body {
 	width:0
 }
 #fp-nav ul li:hover .fp-tooltip {
-	/*ease-in 动画以低速开始*/
 	-webkit-transition:opacity .2s ease-in;
 	transition:opacity .2s ease-in;
 	width:auto;
